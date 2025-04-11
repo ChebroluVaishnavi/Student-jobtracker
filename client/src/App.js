@@ -34,7 +34,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>🎯 Student Job Tracker</h1>
+      <h1>👨‍🎓 STUDENT JOB TRACKER</h1>
       <JobForm onAdd={addJob} />
       <JobList jobs={jobs} onDelete={deleteJob} onUpdateStatus={updateStatus} />
     </div>
